@@ -1,0 +1,66 @@
+div.main-body { 
+
+    display: grid; 
+
+    grid-template-columns: minmax(300px , auto)1fr;    
+
+    grid-template-areas: "navbar mainContent"; 
+
+    grid-gap: 20px; 
+} 
+
+   
+nav#navbar { 
+
+    grid-area: navbar; 
+
+    position: fixed;    
+} 
+
+   
+nav#navbar a { 
+
+    display: block; 
+
+    border: 1px solid rgb(243, 237, 237); 
+
+    padding: 5px; 
+
+    margin: 10px 0;  
+
+    color: rgb(227, 239, 9); 
+} 
+
+   
+main#main-doc { 
+
+    grid-area: mainContent; 
+} 
+
+   
+header { 
+
+    font-size: 1.5rem; 
+
+    font-weight: bold; 
+
+    color: rgba(255, 0, 76, 0.956);
+}    
+
+code { 
+
+    background-color: rgba(245, 194, 9, 0.866); 
+
+    display: block; 
+    padding:20px;
+}
+
+body
+{
+    background-color: rgb(103, 58, 79);
+}
+
+p
+{
+    color: cornsilk;
+}
